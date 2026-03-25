@@ -8,6 +8,7 @@ import HealthSection from "@/components/landing/HealthSection";
 import TaglineSection from "@/components/landing/TaglineSection";
 import CTASection from "@/components/landing/CTASection";
 import Footer from "@/components/landing/Footer";
+import ProductCatalogPage from "@/components/landing/ProductCatalogPage";
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
         <ValuesSection />
         <ProductsSection />
         <FreshnessShowcase />
+        <ProductCatalogPage />
         <LifestyleSection />
         <HealthSection />
         <TaglineSection />
