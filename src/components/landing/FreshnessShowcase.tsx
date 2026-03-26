@@ -1,4 +1,5 @@
-import fruitsComposition from "@/assets/fruits-composition.png";
+// import fruitsComposition from "@/assets/fruits-composition.png";
+import variant1 from "@/assets/strawberry-semangka-lemon.webp"
 
 const FreshnessShowcase = () => {
   return (
@@ -12,7 +13,7 @@ const FreshnessShowcase = () => {
           {/* Image */}
           <div className="flex justify-center">
             <img
-              src={fruitsComposition}
+              src={variant1}
               alt="Fresh fruits composition - oranges, strawberries, lemons, and mint"
               className="w-full max-w-lg animate-float-slow"
             />

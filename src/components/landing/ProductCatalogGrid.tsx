@@ -259,7 +259,7 @@ export default function ProductCatalogGrid() {
         </div>
 
         {/* Bottom CTA */}
-        <div
+        {/* <div
           className="text-center mt-20 py-16 rounded-3xl relative overflow-hidden"
           style={{
             background: "linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%)",
@@ -294,7 +294,7 @@ export default function ProductCatalogGrid() {
               Shop the Bundle — Save 20%
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

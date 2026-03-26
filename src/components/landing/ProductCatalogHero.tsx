@@ -6,7 +6,7 @@ const products = [
     name: "Citrus Burst",
     tagline: "Sunshine in a bottle",
     category: "Infused Fruit Drinks",
-    price: "Rp 32.000",
+    price: "Rp 20.000",
     color: "#F5A623",
     gradient: "from-[#F5A623] to-[#F7C948]",
     bgLight: "#FFF8E7",
@@ -21,7 +21,7 @@ const products = [
     name: "Berry Bloom",
     tagline: "Wild & wonderfully fresh",
     category: "Fruit Tea",
-    price: "Rp 29.000",
+    price: "Rp 20.000",
     color: "#E8445A",
     gradient: "from-[#E8445A] to-[#FF7B8E]",
     bgLight: "#FFF0F2",
@@ -36,7 +36,7 @@ const products = [
     name: "Kiwi Zen",
     tagline: "Calm, cool, refreshed",
     category: "Chilled Fruit Drinks",
-    price: "Rp 31.000",
+    price: "Rp 20.000",
     color: "#4CAF50",
     gradient: "from-[#4CAF50] to-[#8BC34A]",
     bgLight: "#F0F8F0",
@@ -51,7 +51,7 @@ const products = [
     name: "Mango Glow",
     tagline: "Tropical paradise sip",
     category: "Infused Fruit Drinks",
-    price: "Rp 33.000",
+    price: "Rp 20.000",
     color: "#FF9800",
     gradient: "from-[#FF9800] to-[#FFB74D]",
     bgLight: "#FFF3E0",
@@ -66,7 +66,7 @@ const products = [
     name: "Grape Mist",
     tagline: "Deep, dreamy refreshment",
     category: "Fruit Tea",
-    price: "Rp 28.000",
+    price: "Rp 20.000",
     color: "#9C27B0",
     gradient: "from-[#9C27B0] to-[#CE93D8]",
     bgLight: "#F8F0FC",
@@ -81,7 +81,7 @@ const products = [
     name: "Lemon Spark",
     tagline: "Zesty, alive, electric",
     category: "Chilled Fruit Drinks",
-    price: "Rp 27.000",
+    price: "Rp 20.000",
     color: "#CDDC39",
     gradient: "from-[#CDDC39] to-[#DCE775]",
     bgLight: "#FAFDE7",
@@ -140,7 +140,7 @@ export default function ProductCatalogHero() {
       />
 
       {/* Nav bar */}
-      <nav className="relative z-20 flex items-center justify-between px-8 lg:px-16 py-6">
+      {/* <nav className="relative z-20 flex items-center justify-between px-8 lg:px-16 py-6">
         <div className="flex items-center gap-2">
           <span className="font-black text-2xl tracking-tight" style={{ fontFamily: "'Playfair Display', Georgia, serif" }}>
             Frush
@@ -159,7 +159,7 @@ export default function ProductCatalogHero() {
         >
           Order Now
         </button>
-      </nav>
+      </nav> */}
 
       {/* Hero content */}
       <div className="relative z-20 flex-1 flex flex-col lg:flex-row items-center justify-center gap-12 px-8 lg:px-16 pb-12">

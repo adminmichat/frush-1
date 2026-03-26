@@ -2,12 +2,13 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 
+
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
     { name: "Home", href: "#home" },
-    { name: "Products", href: "#products" },
+    { name: "Products", href: "#products"},
     { name: "About", href: "#about" },
     { name: "Contact", href: "#contact" },
   ];
